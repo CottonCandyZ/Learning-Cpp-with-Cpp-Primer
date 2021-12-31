@@ -1,2 +1,10 @@
+# exclude build file
 build/
+
+# macOS
 .DS_Store
+
+#exclue test file
+test.cpp
+test
+output
