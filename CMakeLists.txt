@@ -1,4 +1,8 @@
 cmake_minimum_required(VERSION 3.0.0)
+set(CMAKE_CXX_STANDARD 17)
+set(CMAKE_CXX_STANDARD_REQUIRED ON)
+set(CMAKE_CXX_EXTENSIONS OFF)
+
 project(C++_Primer)
 
 include(CTest)
@@ -29,6 +33,13 @@ add_executable(02-4 02-Variables-and-Basic-Types/4.cpp)
 add_executable(02-8 02-Variables-and-Basic-Types/8.cpp)
 add_executable(02-10 02-Variables-and-Basic-Types/10.cpp)
 add_executable(02-18 02-Variables-and-Basic-Types/18.cpp)
+add_executable(02-28 02-Variables-and-Basic-Types/28.cpp)
+add_executable(02-29 02-Variables-and-Basic-Types/29.cpp)
+add_executable(02-30 02-Variables-and-Basic-Types/30.cpp)
+add_executable(02-31 02-Variables-and-Basic-Types/31.cpp)
+add_executable(02-32 02-Variables-and-Basic-Types/32.cpp)
+add_executable(02-33 02-Variables-and-Basic-Types/33.cpp)
+
 
 set(CPACK_PROJECT_NAME ${PROJECT_NAME})
 set(CPACK_PROJECT_VERSION ${PROJECT_VERSION})
