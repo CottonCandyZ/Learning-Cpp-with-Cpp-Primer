@@ -39,6 +39,13 @@ add_executable(02-30 02-Variables-and-Basic-Types/30.cpp)
 add_executable(02-31 02-Variables-and-Basic-Types/31.cpp)
 add_executable(02-32 02-Variables-and-Basic-Types/32.cpp)
 add_executable(02-33 02-Variables-and-Basic-Types/33.cpp)
+add_executable(02-35 02-Variables-and-Basic-Types/35.cpp)
+add_executable(02-36 02-Variables-and-Basic-Types/36.cpp)
+add_executable(02-37 02-Variables-and-Basic-Types/37.cpp)
+add_executable(02-39 02-Variables-and-Basic-Types/39.cpp)
+add_executable(02-40 02-Variables-and-Basic-Types/40.cpp)
+add_executable(02-41 02-Variables-and-Basic-Types/41.cpp)
+
 
 
 set(CPACK_PROJECT_NAME ${PROJECT_NAME})
