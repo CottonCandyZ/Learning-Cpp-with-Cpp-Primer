@@ -46,6 +46,28 @@ add_executable(02-39 02-Variables-and-Basic-Types/39.cpp)
 add_executable(02-40 02-Variables-and-Basic-Types/40.cpp)
 add_executable(02-41 02-Variables-and-Basic-Types/41.cpp)
 
+# 第三章
+add_executable(03-01 03-Strings-Vectors-Arrays/1.cpp)
+add_executable(03-02 03-Strings-Vectors-Arrays/2.cpp)
+add_executable(03-04 03-Strings-Vectors-Arrays/4.cpp)
+add_executable(03-05 03-Strings-Vectors-Arrays/5.cpp)
+add_executable(03-06 03-Strings-Vectors-Arrays/6.cpp)
+add_executable(03-07 03-Strings-Vectors-Arrays/7.cpp)
+add_executable(03-08 03-Strings-Vectors-Arrays/8.cpp)
+add_executable(03-10 03-Strings-Vectors-Arrays/10.cpp)
+add_executable(03-12 03-Strings-Vectors-Arrays/12.cpp)
+add_executable(03-13 03-Strings-Vectors-Arrays/13.cpp)
+add_executable(03-14 03-Strings-Vectors-Arrays/14.cpp)
+add_executable(03-15 03-Strings-Vectors-Arrays/15.cpp)
+add_executable(03-16 03-Strings-Vectors-Arrays/16.cpp)
+add_executable(03-18 03-Strings-Vectors-Arrays/18.cpp)
+add_executable(03-19 03-Strings-Vectors-Arrays/19.cpp)
+add_executable(03-20 03-Strings-Vectors-Arrays/20.cpp)
+add_executable(03-21 03-Strings-Vectors-Arrays/21.cpp)
+add_executable(03-22 03-Strings-Vectors-Arrays/22.cpp)
+add_executable(03-23 03-Strings-Vectors-Arrays/23.cpp)
+add_executable(03-24 03-Strings-Vectors-Arrays/24.cpp)
+
 
 
 set(CPACK_PROJECT_NAME ${PROJECT_NAME})
