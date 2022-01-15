@@ -1,8 +1,14 @@
+# C++ Primer 5h 练习
+
 ## 略
 1-2、1-5、1-14、1-15、1-17、1-24（同 23）
 
 2-1、2-2、2-3、2-5、2-34（参照 33）
 
+## 目录
 
-
-## [文字性答案](文字性答案.md)
+- [第 1 章 开始](01-start/README.md)
+- 第一部分 C++ 基础
+    - [第 2 章 变量和基本类型](02-Variables-and-Basic-Types/README.md)
+    - [第 3 章 字符串、向量和数组](03-Strings-Vectors-Arrays/README.md)
+    - [第 4 章 表达式](04-Expressions/README.md)
