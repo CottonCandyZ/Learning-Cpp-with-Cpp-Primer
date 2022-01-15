@@ -130,7 +130,7 @@ i *= d;
 i *= static_cast<int>(d);
 ```
 
-### 4-37
+## 4-37
 ```C++
 a. pv = static_cast<void *>(const_cast<string *>(ps));  
 b. i = static_cast<int>(*pc);  
