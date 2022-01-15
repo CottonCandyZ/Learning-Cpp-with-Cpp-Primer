@@ -138,6 +138,6 @@ c. pv = static_cast<void *>(&d);
 d. pc = static_cast<char *>(pv)
 ```
 
-## 4.28
+## 4-28
 
 相除的结果应该是一个 `int` 值，随后被 cast 成 `double`，并赋给了 `slope`。
