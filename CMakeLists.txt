@@ -8,7 +8,7 @@ project(C++_Primer)
 include(CTest)
 enable_testing()
 
-# 第一章
+# 第 1 章
 add_executable(01-01 01-start/1.cpp)
 add_executable(01-03 01-start/3.cpp)
 add_executable(01-04 01-start/4.cpp)
@@ -28,7 +28,7 @@ add_executable(01-22 01-start/22.cpp 01-start/Sales_item.h)
 add_executable(01-23 01-start/23.cpp 01-start/Sales_item.h)
 add_executable(01-25 01-start/25.cpp 01-start/Sales_item.h)
 
-# 第二章
+# 第 2 章
 add_executable(02-04 02-Variables-and-Basic-Types/4.cpp)
 add_executable(02-08 02-Variables-and-Basic-Types/8.cpp)
 add_executable(02-10 02-Variables-and-Basic-Types/10.cpp)
@@ -46,7 +46,7 @@ add_executable(02-39 02-Variables-and-Basic-Types/39.cpp)
 add_executable(02-40 02-Variables-and-Basic-Types/40.cpp)
 add_executable(02-41 02-Variables-and-Basic-Types/41.cpp)
 
-# 第三章
+# 第 3 章
 add_executable(03-01 03-Strings-Vectors-Arrays/1.cpp)
 add_executable(03-02 03-Strings-Vectors-Arrays/2.cpp)
 add_executable(03-04 03-Strings-Vectors-Arrays/4.cpp)
@@ -84,7 +84,7 @@ add_executable(03-43 03-Strings-Vectors-Arrays/43.cpp)
 add_executable(03-44 03-Strings-Vectors-Arrays/44.cpp)
 add_executable(03-45 03-Strings-Vectors-Arrays/45.cpp)
 
-# 第四章
+# 第 4 章
 add_executable(04-01 04-Expressions/1.cpp)
 add_executable(04-02 04-Expressions/2.cpp)
 add_executable(04-04 04-Expressions/4.cpp)
@@ -101,7 +101,7 @@ add_executable(04-27 04-Expressions/27.cpp)
 add_executable(04-28 04-Expressions/28.cpp)
 add_executable(04-29 04-Expressions/29.cpp)
 
-# 第五章
+# 第 5 章
 add_executable(05-05 05-Statements/5.cpp)
 add_executable(05-06 05-Statements/6.cpp)
 add_executable(05-09 05-Statements/9.cpp)
@@ -117,6 +117,30 @@ add_executable(05-21 05-Statements/21.cpp)
 add_executable(05-23 05-Statements/23.cpp)
 add_executable(05-24 05-Statements/24.cpp)
 add_executable(05-25 05-Statements/25.cpp)
+
+# 第 6 章
+add_executable(06-03 06-Functions/3.cpp)
+add_executable(06-04 06-Functions/4.cpp)
+add_executable(06-05 06-Functions/5.cpp)
+add_executable(06-07 06-Functions/7.cpp)
+add_executable(06-09 06-Functions/9/fact.cpp 06-Functions/9/factMain.cpp)
+add_executable(06-10 06-Functions/10.cpp)
+add_executable(06-11 06-Functions/11.cpp)
+add_executable(06-12 06-Functions/12.cpp)
+add_executable(06-17 06-Functions/17.cpp)
+add_executable(06-21 06-Functions/21.cpp)
+add_executable(06-22 06-Functions/22.cpp)
+add_executable(06-23 06-Functions/23.cpp)
+add_executable(06-25 06-Functions/25.cpp)
+add_executable(06-26 06-Functions/26.cpp)
+add_executable(06-27 06-Functions/27.cpp)
+add_executable(06-30 06-Functions/30.cpp)
+add_executable(06-33 06-Functions/33.cpp)
+add_executable(06-42 06-Functions/42.cpp)
+add_executable(06-47 06-Functions/47.cpp)
+add_executable(06-51 06-Functions/51.cpp)
+add_executable(06-55 06-Functions/55.cpp)
+add_executable(06-56 06-Functions/56.cpp)
 
 set(CPACK_PROJECT_NAME ${PROJECT_NAME})
 set(CPACK_PROJECT_VERSION ${PROJECT_VERSION})

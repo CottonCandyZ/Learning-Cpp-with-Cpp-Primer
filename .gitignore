@@ -12,3 +12,7 @@ output
 tempCodeRunnerFile.cpp
 
 input
+
+.idea
+
+cmake-build-debug
