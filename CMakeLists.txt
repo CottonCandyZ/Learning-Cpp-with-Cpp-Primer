@@ -142,6 +142,16 @@ add_executable(06-51 06-Functions/51.cpp)
 add_executable(06-55 06-Functions/55.cpp)
 add_executable(06-56 06-Functions/56.cpp)
 
+# 第 7 章
+add_executable(07-01 07-Classes/1.cpp 02-Variables-and-Basic-Types/Sales_data.h)
+add_executable(07-03 07-Classes/3.cpp 07-Classes/Sales_data_1.h)
+add_executable(07-07 07-Classes/7.cpp 07-Classes/Sales_data_2.h)
+add_executable(07-11 07-Classes/11.cpp 07-Classes/Sales_data_3.h)
+add_executable(07-13 07-Classes/13.cpp 07-Classes/Sales_data_4.h)
+add_executable(07-27 07-Classes/27.cpp 07-Classes/Screen_2.h)
+add_executable(07-29 07-Classes/29.cpp 07-Classes/Screen_2_e.h)
+add_executable(07-41 07-Classes/41.cpp 07-Classes/Sales_data_7.h)
+
 set(CPACK_PROJECT_NAME ${PROJECT_NAME})
 set(CPACK_PROJECT_VERSION ${PROJECT_VERSION})
 include(CPack)

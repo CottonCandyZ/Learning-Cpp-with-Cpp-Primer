@@ -14,3 +14,4 @@
     - [第 4 章 表达式](04-Expressions/README.md)
     - [第 5 章 语句](05-Statements/README.md)
     - [第 6 章 函数](06-Functions/README.md)
+    - [第 7 章 类](07-Classes/README.md)
