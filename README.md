@@ -15,3 +15,5 @@
   - [第 5 章 语句](05-Statements/README.md)
   - [第 6 章 函数](06-Functions/README.md)
   - [第 7 章 类](07-Classes/README.md)
+- 第二部分 C++ 标准库
+  - [第 8 章 IO 库](08-The-IO-Library/README.md)

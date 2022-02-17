@@ -152,6 +152,18 @@ add_executable(07-27 07-Classes/27.cpp 07-Classes/Screen_2.h)
 add_executable(07-29 07-Classes/29.cpp 07-Classes/Screen_2_e.h)
 add_executable(07-41 07-Classes/41.cpp 07-Classes/Sales_data_7.h)
 
+# 第 8 章
+add_executable(08-02 08-The-IO-Library/2.cpp)
+add_executable(08-04 08-The-IO-Library/4.cpp)
+add_executable(08-05 08-The-IO-Library/5.cpp)
+add_executable(08-06 08-The-IO-Library/6.cpp)
+add_executable(08-07 08-The-IO-Library/7.cpp)
+add_executable(08-08 08-The-IO-Library/8.cpp)
+add_executable(08-09 08-The-IO-Library/9.cpp)
+add_executable(08-10 08-The-IO-Library/10.cpp)
+add_executable(08-11 08-The-IO-Library/11.cpp)
+add_executable(08-13 08-The-IO-Library/13.cpp)
+
 set(CPACK_PROJECT_NAME ${PROJECT_NAME})
 set(CPACK_PROJECT_VERSION ${PROJECT_VERSION})
 include(CPack)
