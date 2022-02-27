@@ -17,8 +17,9 @@ public:
 
     Date() = default;
 
-    Date(const std::string &input);
-    std::ostream &print(std::ostream &os) {
+    explicit Date(const std::string &input);
+
+    std::ostream &print(std::ostream &os) const {
         os << year << '-' << month << '-' << day;
         return os;
     }
