@@ -90,7 +90,7 @@ std::multiset<Sales_data, bool (*)(const Sales_data &lhs, const Sales_data &rhs)
 pair<string, vector<int>>;
 pair<map<string, vector<int>>::iterator, bool>;
 ```
-√
+
 ## [23](23.cpp)
 
 ## 24
