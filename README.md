@@ -20,3 +20,4 @@
   - [第 9 章 顺序容器](09-Sequential-Containers/README.md)
   - [第 10 章 泛型算法](10-Generic-Algorithms/README.md)
   - [第 11 章 关联容器](11-Associative-Containers/README.md)
+  - [第 12 章 动态内存](12-Dynamic-Memory/README.md)
