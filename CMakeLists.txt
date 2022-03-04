@@ -10,8 +10,10 @@ enable_testing()
 
 # 第 1 章
 add_executable(01-01 01-start/1.cpp)
+add_executable(01-02 01-start/2.cpp)
 add_executable(01-03 01-start/3.cpp)
 add_executable(01-04 01-start/4.cpp)
+add_executable(01-05 01-start/5.cpp)
 add_executable(01-07 01-start/7.cpp)
 add_executable(01-08 01-start/8.cpp)
 add_executable(01-09 01-start/9.cpp)
@@ -261,6 +263,8 @@ add_executable(12-26 12-Dynamic-Memory/26.cpp)
 add_executable(12-28 12-Dynamic-Memory/28.cpp)
 add_executable(12-30 12-Dynamic-Memory/30.cpp)
 add_executable(12-32 12-Dynamic-Memory/32.cpp)
+
+# 第 13 章
 
 set(CPACK_PROJECT_NAME ${PROJECT_NAME})
 set(CPACK_PROJECT_VERSION ${PROJECT_VERSION})
