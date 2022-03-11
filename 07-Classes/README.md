@@ -170,7 +170,7 @@ class Date{
     friend std::ostream &operator<<(std::ostream &, const Date &);
 public:
     Date() = default;
-    Date(unsigned _year, unsigned _month, unsigned _day) : year(year), month(month) { }
+    Date(unsigned _year, unsigned _month, unsigned _day) : year(_year), month(_month), day(_day) { }
     Date(std::istream &in) { in >> year >> month >> day; }
 private:
     unsigned year;
@@ -189,7 +189,7 @@ class Date{
     friend std::ostream &operator<<(std::ostream &, const Date &);
 public:
     Date() : Date(0, 0, 0, 0) { }
-    Date(unsigned _year, unsigned _month, unsigned _day) : year(year), month(month) { }
+    Date(unsigned _year, unsigned _month, unsigned _day) : year(_year), month(_month), day(_day) { }
     Date(std::istream &in) { in >> year >> month >> day; }
 private:
     unsigned year;
