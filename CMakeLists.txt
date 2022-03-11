@@ -1,5 +1,5 @@
 cmake_minimum_required(VERSION 3.0.0)
-set(CMAKE_CXX_STANDARD 17)
+set(CMAKE_CXX_STANDARD 20)
 set(CMAKE_CXX_STANDARD_REQUIRED ON)
 set(CMAKE_CXX_EXTENSIONS OFF)
 
@@ -265,6 +265,14 @@ add_executable(12-30 12-Dynamic-Memory/30.cpp)
 add_executable(12-32 12-Dynamic-Memory/32.cpp)
 
 # 第 13 章
+add_executable(13-13 13-Copy-Control/13.cpp)
+add_executable(13-17 13-Copy-Control/17.cpp)
+add_executable(13-31 13-Copy-Control/31.cpp)
+add_executable(13-42 13-Copy-Control/42.cpp)
+add_executable(13-44 13-Copy-Control/44.cpp)
+add_executable(13-48 13-Copy-Control/48.cpp)
+add_executable(13-50 13-Copy-Control/50.cpp)
+add_executable(13-58 13-Copy-Control/58.cpp)
 
 set(CPACK_PROJECT_NAME ${PROJECT_NAME})
 set(CPACK_PROJECT_VERSION ${PROJECT_VERSION})

@@ -16,3 +16,5 @@
   - [第 10 章 泛型算法](10-Generic-Algorithms/README.md)
   - [第 11 章 关联容器](11-Associative-Containers/README.md)
   - [第 12 章 动态内存](12-Dynamic-Memory/README.md)
+- 第三部分 类设计者的工具
+  - [第 13 章 拷贝控制](13-Copy-Control/README.md)
