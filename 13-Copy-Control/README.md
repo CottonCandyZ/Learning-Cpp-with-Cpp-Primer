@@ -82,9 +82,9 @@ bool fcn(const Sales_data *trans, Sales_data accum) { // 拷贝创建 accum
 
 ## [17](17.cpp)
 
-## 18 | [Employee_1](Employee_1.h)
+## 18 [Employee_1](Employee_1.h)
 
-## 19 | [Employee_2](Employee_2.h)
+## 19 [Employee_2](Employee_2.h)
 
 不需要，`Employee` 不需要拷贝。
 
@@ -162,7 +162,7 @@ bool fcn(const Sales_data *trans, Sales_data accum) { // 拷贝创建 accum
 
 会导致前面空一个，并且 `first_free` 将指向刚加进去的元素。
 
-## [42](42.cpp) [TextQuery](TextQuery_4.h) | [QueryResult](QueryResult_5.h)
+## [42](42.cpp) | [TextQuery](TextQuery_4.h) | [QueryResult](QueryResult_5.h)
 
 ## 43 [StrVec](StrVec_3.h)
 
@@ -208,7 +208,7 @@ int &&r4 = vi[0] * f();
 
 reference: [SO](https://stackoverflow.com/questions/21010371/why-is-it-not-efficient-to-use-a-single-assignment-operator-handling-both-copy-a)
 
-## [54](54.cpp) [HasPtr](HasPtr_9.h)
+## [54](54.cpp) | [HasPtr](HasPtr_9.h)
 
 报编译错：
 ```
@@ -227,4 +227,4 @@ Use of overloaded operator '=' is ambiguous (with operand types 'HasPtr' and 'ty
 
 会调用对应右值的 `sorted()` 函数。
 
-## [58](58.cpp) [Foo](Foo_1.h)
+## [58](58.cpp) | [Foo](Foo_1.h)
