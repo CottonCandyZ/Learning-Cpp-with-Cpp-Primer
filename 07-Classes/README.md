@@ -167,16 +167,17 @@ Sales_data(std::istream &is = std::cin) { read(is, *this); }
 
 ```c++
 class Date{
+    friend std::ostream &operator<<(std::ostream &, const Date &);
 public:
-    Date() = defult;
-    Date(unsigned year, unsigned month, unsigned day) : _year(year), _month(month) { }
-    Book(std::istream &in) { in >> _year >> _month >> _day; }
-
+    Date() = default;
+    Date(unsigned _year, unsigned _month, unsigned _day) : year(year), month(month) { }
+    Date(std::istream &in) { in >> year >> month >> day; }
 private:
-    unsigned _year;
-    unsigned _month;
-    unsigned _day;
+    unsigned year;
+    unsigned month;
+    unsigned day;
 };
+
 ```
 
 ## [41](41.cpp) | [Sales_data](Sales_data_7.h)
@@ -185,16 +186,15 @@ private:
 
 ```c++
 class Date{
+    friend std::ostream &operator<<(std::ostream &, const Date &);
 public:
-
-    Date(unsigned year, unsigned month, unsigned day) : _year(year), _month(month) { }
     Date() : Date(0, 0, 0, 0) { }
-    Book(std::istream &in) : Date() { in >> _year >> _month >> _day; }
-
+    Date(unsigned _year, unsigned _month, unsigned _day) : year(year), month(month) { }
+    Date(std::istream &in) { in >> year >> month >> day; }
 private:
-    unsigned _year;
-    unsigned _month;
-    unsigned _day;
+    unsigned year;
+    unsigned month;
+    unsigned day;
 };
 ```
 ## [43](43.h)
