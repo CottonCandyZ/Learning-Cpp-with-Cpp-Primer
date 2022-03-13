@@ -274,6 +274,22 @@ add_executable(13-48 13-Copy-Control/48.cpp)
 add_executable(13-50 13-Copy-Control/50.cpp)
 add_executable(13-58 13-Copy-Control/58.cpp)
 
+# 第 14 章
+add_executable(14-07 14-Overloaded-Operations-and-Conversions/7.cpp)
+add_executable(14-08 14-Overloaded-Operations-and-Conversions/8.cpp)
+add_executable(14-36 14-Overloaded-Operations-and-Conversions/36.cpp)
+add_executable(14-37 14-Overloaded-Operations-and-Conversions/37.cpp)
+add_executable(14-38 14-Overloaded-Operations-and-Conversions/38.cpp)
+add_executable(14-39 14-Overloaded-Operations-and-Conversions/39.cpp)
+add_executable(14-40 14-Overloaded-Operations-and-Conversions/40.cpp)
+add_executable(14-43 14-Overloaded-Operations-and-Conversions/43.cpp)
+add_executable(14-44 14-Overloaded-Operations-and-Conversions/44.cpp)
+add_executable(14-45 14-Overloaded-Operations-and-Conversions/45.cpp)
+add_executable(14-51 14-Overloaded-Operations-and-Conversions/51.cpp)
+add_executable(14-52 14-Overloaded-Operations-and-Conversions/52.cpp)
+add_executable(14-53 14-Overloaded-Operations-and-Conversions/53.cpp)
+
+
 set(CPACK_PROJECT_NAME ${PROJECT_NAME})
 set(CPACK_PROJECT_VERSION ${PROJECT_VERSION})
 include(CPack)
