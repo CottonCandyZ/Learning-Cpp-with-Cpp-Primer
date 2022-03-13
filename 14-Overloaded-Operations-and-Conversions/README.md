@@ -45,7 +45,7 @@ bool operator==(const Date &lhs, const Date &rhs) {
 
 ## 6
 
-[2](#2-sales_datasales_data_8h) 已实现
+[2](#2-sales_data) 已实现
 
 ## [7](7.cpp) | [String](String_5.h)
 
@@ -53,7 +53,7 @@ bool operator==(const Date &lhs, const Date &rhs) {
 
 ## 9
 
-[2](#2-sales_datasales_data_8h) 已实现
+[2](#2-sales_data) 已实现
 
 ## 10
 
@@ -94,7 +94,7 @@ reference: [SO](https://stackoverflow.com/questions/21071167/why-is-it-more-effi
 
 ## 20
 
-[2](#2-sales_datasales_data_8h) 已实现
+[2](#2-sales_data) 已实现
 
 ## 21 [Sales_data](Sales_data_9.h)
 
