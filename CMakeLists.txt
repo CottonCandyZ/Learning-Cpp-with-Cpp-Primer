@@ -289,6 +289,17 @@ add_executable(14-51 14-Overloaded-Operations-and-Conversions/51.cpp)
 add_executable(14-52 14-Overloaded-Operations-and-Conversions/52.cpp)
 add_executable(14-53 14-Overloaded-Operations-and-Conversions/53.cpp)
 
+# 第 15 章
+add_executable(15-06 15-Object-Oriented-Programming/6.cpp)
+add_executable(15-21 15-Object-Oriented-Programming/21.cpp)
+add_executable(15-23 15-Object-Oriented-Programming/23.cpp)
+add_executable(15-26 15-Object-Oriented-Programming/26.cpp)
+add_executable(15-28 15-Object-Oriented-Programming/28.cpp)
+add_executable(15-29 15-Object-Oriented-Programming/29.cpp)
+add_executable(15-30 15-Object-Oriented-Programming/30.cpp)
+add_executable(15-36 15-Object-Oriented-Programming/36/36.cpp)
+add_executable(15-39 15-Object-Oriented-Programming/15.9/39.cpp)
+add_executable(15-41 15-Object-Oriented-Programming/41/41.cpp)
 
 set(CPACK_PROJECT_NAME ${PROJECT_NAME})
 set(CPACK_PROJECT_VERSION ${PROJECT_VERSION})
