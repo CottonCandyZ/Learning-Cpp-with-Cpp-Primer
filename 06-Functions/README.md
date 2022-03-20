@@ -240,7 +240,7 @@ inline bool isShorter(const string &s1, const string &s2) {
 
 ## 45
 
-[42](#4242cpp) 显然可以换成内联函数，但是 [4](#44cpp) 显然不可以。
+[42](#42) 显然可以换成内联函数，但是 [4](#4) 显然不可以。
 
 ## 46
 
