@@ -21,3 +21,7 @@
   - [第 14 章 重载运算与类型转换](14-Overloaded-Operations-and-Conversions/README.md)
   - [第 15 章 面向对象程序设计](15-Object-Oriented-Programming/README.md)
   - [第 16 章 模版与泛型编程](16-Templates-and-Generic-Programming/README.md)
+- 第四部分 高级主题
+  - 第 17 章 标准库特殊设施
+  - [第 18 章 用于大型程序的工具](18-Tools-for-Large-Programs/README.md)
+  - 第 19 章 特殊工具与技术
